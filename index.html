@@ -4,6 +4,15 @@
     <title>Qingfeng Cao</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link
@@ -86,28 +95,15 @@
     <div class="w3-content w3-container w3-padding-64" id="about">
       <h3 class="w3-center">ABOUT ME</h3>
       <p class="w3-center">
-        <em>I love coding and developing web applications </em>
+        <em>I am a software engineer </em>
       </p>
-      <p>
-        My name is Qingfeng Cao. When I was a Post-Doctoral Associate and PhD
-        candidate, I spent most of my time working with computers and conducting
-        numerical simulations with computer programs in the Mechanical
-        Engineering field. This gave me the first chance of coding and using
-        computer programs to solve a wide range of engineering problems. From
-        the moment I produced "Hello World" in the console of my aplication, I
-        knew I was hooked into the world of software development. But software
-        development has never been "just a job" for me, it's offered an engaging
-        challenge to continually learn and improve my skills in creating
-        high-quality applications. What started with a simple "Hello World" has
-        become a full-fledged passion that only gets more exciting as the years
-        go by.
-      </p>
-      <div class="w3-row">
+
+      <div class="w3-row" style="margin-top: 30px">
         <div class="w3-col m6 w3-center w3-padding-large">
-          <p>
+          <!-- <p style="margin: 0">
             <b><i class="fa fa-user w3-margin-right"></i>Qingfeng Cao</b>
-          </p>
-          <br />
+          </p> -->
+          <!-- <br /> -->
           <img
             src="/images/IMG-0586.jpg"
             class="w3-round w3-image w3-opacity w3-hover-opacity-off"
@@ -118,20 +114,37 @@
         </div>
 
         <!-- Hide this text on small devices -->
-        <div class="w3-col m6 w3-hide-small w3-padding-large">
-          <p>
-            Welcome to my website. In the Portfolio section below, you will find
-            projects I've completed that showcase my skills and general
-            background in developing web applications. They were written using
-            different technologies of React, JavaScript, HTML and CSS.
+        <!-- <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p style="margin-top: 50px">
+            In the Portfolio section below, you will find my personal projects
+            developed recently.
+          </p>
+        </div> -->
+        <div class="w3-col m6 w3-hide-small">
+          <p style="margin-top: 8px; margin-left: 10px">
+            My name is Qingfeng Cao. Currently I'm working as a software
+            engineer at Pro Gas & Heating Services in New Westminster, BC,
+            Canada. My work involves both front-end and back-end development. As
+            a software engineer, I have a strong passion for constantly learning
+            and solving complex problems with my skill set in the industry. My
+            skills include:
+            <br />
+            <br />
+            <span style="font-weight: 700">Languages:</span> JavaScript/ES6,
+            PHP, Typescript, Python, HTML5, CSS3 <br />
+            <span style="font-weight: 700">Front-End:</span> React, jQuery,
+            Bootstrap <br />
+            <span style="font-weight: 700">Back-End:</span> MySQL, SQL,
+            phpMyAdmin, AJAX, JSON, Node.js, RESTful APIs, GraphQL <br />
+            <span style="font-weight: 700">Tools & Technologies:</span> VS Code,
+            Git, GitHub, Netlify <br />
           </p>
         </div>
       </div>
-      <p class="w3-large w3-center w3-padding-16">I'm really good at:</p>
-      <p class="w3-wide">
-        <i class="fa fa-code w3-margin-right"></i>Coding in React, JavaScript,
-        HTML and CSS
+      <p class="w3-large w3-center" style="margin-top: 40px">
+        I'm really good at:
       </p>
+      <p class="w3-wide"><i class="fa fa-code w3-margin-right"></i>Coding</p>
       <div class="w3-light-grey">
         <div
           class="w3-container w3-padding-small w3-dark-grey w3-center"
@@ -141,18 +154,18 @@
         </div>
       </div>
       <p class="w3-wide">
-        <i class="fa fa-laptop w3-margin-right"></i>Web Design
+        <i class="fa-solid fa-basketball w3-margin-right"></i>Basketball
       </p>
       <div class="w3-light-grey">
         <div
           class="w3-container w3-padding-small w3-dark-grey w3-center"
-          style="width: 92%"
+          style="width: 90%"
         >
-          92%
+          90%
         </div>
       </div>
       <p class="w3-wide">
-        <i class="fa fa-photo w3-margin-right"></i>Photography
+        <i class="fa-solid fa-guitar w3-margin-right"></i>Guitar
       </p>
       <div class="w3-light-grey">
         <div
@@ -173,12 +186,12 @@
 
     <!-- Container (Portfolio Section) -->
     <div class="w3-content w3-container w3-padding-64" id="portfolio">
-      <h3 class="w3-center">MY WORK</h3>
+      <h3 class="w3-center">PERSONAL PROJECTS</h3>
       <p class="w3-center">
         <em
-          >Here are some of my latest work examples written in React,
-          JavaScript, HTML and CSS<br />
-          Click on the images to check them out</em
+          >Here are some of my recent personal projects.<br />
+          Click on the images to check them out. The source code can be found on
+          my GitHub: levinperson.</em
         >
       </p>
       <br />
@@ -380,7 +393,7 @@
             <i
               class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
             ></i>
-            Vancouver, BC Canada<br />
+            New Westminster, BC, Canada<br />
             <i
               class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
             ></i>
