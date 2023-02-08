@@ -12,6 +12,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
@@ -131,13 +145,13 @@
             <br />
             <br />
             <span style="font-weight: 700">Languages:</span> JavaScript/ES6,
-            PHP, Typescript, Python, HTML5, CSS3 <br />
+            PHP, Typescript, C#, Python, Swift, HTML5, CSS3 <br />
             <span style="font-weight: 700">Front-End:</span> React, jQuery,
-            Bootstrap <br />
-            <span style="font-weight: 700">Back-End:</span> MySQL, SQL,
-            phpMyAdmin, AJAX, JSON, Node.js, RESTful APIs, GraphQL <br />
+            SwiftUI, Bootstrap <br />
+            <span style="font-weight: 700">Back-End:</span> Node.js, Express.js,
+            MySQL, MongoDB, SQL, AJAX, JSON, RESTful APIs, GraphQL <br />
             <span style="font-weight: 700">Tools & Technologies:</span> VS Code,
-            Git, GitHub, Netlify <br />
+            Visual Studio, Git, GitHub, phpMyAdmin, Xcode, Netlify <br />
           </p>
         </div>
       </div>
@@ -190,8 +204,8 @@
       <p class="w3-center">
         <em
           >Here are some of my recent personal projects.<br />
-          Click on the images to check them out. The source code can be found on
-          my GitHub: levinperson.</em
+          Click on the large images below to check them out. The source code can
+          be found on my GitHub: levinperson.</em
         >
       </p>
       <br />
@@ -200,150 +214,293 @@
       <!-- Container for the image gallery -->
       <div class="container">
         <!-- Full-width images with number text -->
-        <div class="mySlides">
-          <div class="numbertext">1 / 8</div>
-          <a
-            href="https://rainbow-sfogliatella-e4bd15.netlify.app"
-            target="_blank"
-          >
-            <img src="images/tenzies.png" style="width: 100%" />
-          </a>
-        </div>
+        <div class="slider">
+          <div class="mySlides">
+            <div class="numbertext">1 / 9</div>
+            <a href="https://ornate-cat-014c9a.netlify.app/" target="_blank">
+              <img src="images/stockWatchlist.png" style="width: 100%" />
+            </a>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption">
+                A stock watchlist developed with React and FinnHub API.
+                <span style="font-style: italic"
+                  >GitHub:
+                  <a
+                    href="https://github.com/levinperson/stock-watchlist"
+                    target="_blank"
+                  >
+                    levinperson/stock-watchlist
+                  </a></span
+                >
+              </p>
+            </div>
+          </div>
 
-        <div class="mySlides">
-          <div class="numbertext">2 / 8</div>
-          <a href="https://rainbow-axolotl-b9d681.netlify.app" target="_blank">
-            <img src="images/meme_generator.png" style="width: 100%" />
-          </a>
-        </div>
+          <div class="mySlides">
+            <div class="numbertext">2 / 9</div>
+            <a
+              href="https://rainbow-sfogliatella-e4bd15.netlify.app"
+              target="_blank"
+            >
+              <img src="images/tenzies.png" style="width: 100%" />
+            </a>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption">
+                Tenzies Game developed using React.
+                <span style="font-style: italic"
+                  >GitHub:
+                  <a
+                    href="https://github.com/levinperson/tenzies-game"
+                    target="_blank"
+                  >
+                    levinperson/tenzies-game
+                  </a></span
+                >
+              </p>
+            </div>
+          </div>
 
-        <div class="mySlides">
-          <div class="numbertext">3 / 8</div>
-          <a href="https://dulcet-naiad-5c7486.netlify.app" target="_blank">
-            <img src="images/card_light.png" style="width: 100%" />
-          </a>
-        </div>
+          <div class="mySlides">
+            <div class="numbertext">3 / 9</div>
+            <a
+              href="https://rainbow-axolotl-b9d681.netlify.app"
+              target="_blank"
+            >
+              <img src="images/meme_generator.png" style="width: 100%" />
+            </a>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption">
+                A Meme Generator web applicaion written in React.
+                <span style="font-style: italic"
+                  >GitHub:
+                  <a
+                    href="https://github.com/levinperson/meme-generator"
+                    target="_blank"
+                  >
+                    levinperson/meme-generator
+                  </a></span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">4 / 9</div>
+            <a href="https://dulcet-naiad-5c7486.netlify.app" target="_blank">
+              <img src="images/card_light.png" style="width: 100%" />
+            </a>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption">
+                A digital business card created with React.
+                <span style="font-style: italic"
+                  >GitHub:
+                  <a
+                    href="https://github.com/levinperson/digital-business-card"
+                    target="_blank"
+                  >
+                    levinperson/digital-business-card
+                  </a></span
+                >
+              </p>
+            </div>
+          </div>
 
-        <div class="mySlides">
-          <div class="numbertext">4 / 8</div>
-          <a href="https://luxury-banoffee-b6c37b.netlify.app" target="_blank">
-            <img src="images/journal.png" style="width: 100%" />
-          </a>
-        </div>
+          <div class="mySlides">
+            <div class="numbertext">5 / 9</div>
+            <a
+              href="https://luxury-banoffee-b6c37b.netlify.app"
+              target="_blank"
+            >
+              <img src="images/journal.png" style="width: 100%" />
+            </a>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption">
+                A travel journal written in React.
+                <span style="font-style: italic"
+                  >GitHub:
+                  <a
+                    href="https://github.com/levinperson/travel-journal"
+                    target="_blank"
+                  >
+                    levinperson/travel-journal
+                  </a></span
+                >
+              </p>
+            </div>
+          </div>
 
-        <div class="mySlides">
-          <div class="numbertext">5 / 8</div>
-          <a href="https://soft-hamster-be7fe3.netlify.app" target="_blank">
-            <img src="images/airbnb.png" style="width: 100%" />
-          </a>
-        </div>
+          <div class="mySlides">
+            <div class="numbertext">6 / 9</div>
+            <a href="https://soft-hamster-be7fe3.netlify.app" target="_blank">
+              <img src="images/airbnb.png" style="width: 100%" />
+            </a>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption">
+                Airbnb online experiences website clone created with React.
+                <span style="font-style: italic"
+                  >GitHub:
+                  <a
+                    href="https://github.com/levinperson/airbnb-experience-clone"
+                    target="_blank"
+                  >
+                    levinperson/airbnb-experience-clone
+                  </a></span
+                >
+              </p>
+            </div>
+          </div>
 
-        <div class="mySlides">
-          <div class="numbertext">6 / 8</div>
-          <a href="https://cool-cocada-6028f8.netlify.app" target="_blank">
-            <img src="images/blackjack.png" style="width: 100%" />
-          </a>
-        </div>
+          <div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+            <a href="https://cool-cocada-6028f8.netlify.app" target="_blank">
+              <img src="images/blackjack.png" style="width: 100%" />
+            </a>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption">
+                Blackjack game developed with JavaScript.
+                <span style="font-style: italic"
+                  >GitHub:
+                  <a
+                    href="https://github.com/levinperson/blackjack-game"
+                    target="_blank"
+                  >
+                    levinperson/blackjack-game
+                  </a></span
+                >
+              </p>
+            </div>
+          </div>
 
-        <div class="mySlides">
-          <div class="numbertext">7 / 8</div>
-          <a
-            href="https://superlative-babka-3bd050.netlify.app"
-            target="_blank"
-          >
-            <img src="images/chromeExtension.png" style="width: 100%" />
-          </a>
-        </div>
+          <div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+            <a
+              href="https://superlative-babka-3bd050.netlify.app"
+              target="_blank"
+            >
+              <img src="images/chromeExtension.png" style="width: 100%" />
+            </a>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption">
+                A Chrome extension of leads tracker, developed with Javascript.
+                <span style="font-style: italic"
+                  >GitHub:
+                  <a
+                    href="https://github.com/levinperson/chrome-extension-leads-tracker"
+                    target="_blank"
+                  >
+                    levinperson/chrome-extension-leads-tracker
+                  </a></span
+                >
+              </p>
+            </div>
+          </div>
 
-        <div class="mySlides">
-          <div class="numbertext">8 / 8</div>
-          <a href="https://stalwart-griffin-e23c02.netlify.app" target="_blank">
-            <img src="images/calculator.png" style="width: 100%" />
-          </a>
+          <div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+            <a
+              href="https://stalwart-griffin-e23c02.netlify.app"
+              target="_blank"
+            >
+              <img src="images/calculator.png" style="width: 100%" />
+            </a>
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption">
+                A simple calculator written in Javascript.
+                <span style="font-style: italic"
+                  >GitHub:
+                  <a
+                    href="https://github.com/levinperson/simple-calculator"
+                    target="_blank"
+                  >
+                    levinperson/simple-calculator
+                  </a></span
+                >
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Image text -->
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
 
         <!-- Thumbnail images -->
-        <div class="row">
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="images/tenzies.png"
-              style="width: 100%"
-              onclick="currentSlide(1)"
-              alt="Tenzies Game developed with React"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="images/meme_generator.png"
-              style="width: 100%"
-              onclick="currentSlide(2)"
-              alt="A Meme Generator web applicaion written in React"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="images/card_light.png"
-              style="width: 100%"
-              onclick="currentSlide(3)"
-              alt="A digital business card created with React"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="images/journal.png"
-              style="width: 100%"
-              onclick="currentSlide(4)"
-              alt="A travel journal written in React"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="images/airbnb.png"
-              style="width: 100%"
-              onclick="currentSlide(5)"
-              alt="Airbnb online experiences website clone created with React"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="images/blackjack.png"
-              style="width: 100%"
-              onclick="currentSlide(6)"
-              alt="Blackjack game developed with JavaScript"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="images/chromeExtension.png"
-              style="width: 100%"
-              onclick="currentSlide(7)"
-              alt="A Chrome extension of leads tracker, developed with Javascript"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="images/calculator.png"
-              style="width: 100%"
-              onclick="currentSlide(8)"
-              alt="A simple calculator written in Javascript"
-            />
+        <div class="thumbnail-container">
+          <!--Small Next and previous buttons -->
+          <a id="smallPrev">&#10094;</a>
+          <a id="smallNext">&#10095;</a>
+          <div class="row slider-small">
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/stockWatchlist.png"
+                style="width: 100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/tenzies.png"
+                style="width: 100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/meme_generator.png"
+                style="width: 100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/card_light.png"
+                style="width: 100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/journal.png"
+                style="width: 100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/airbnb.png"
+                style="width: 100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/blackjack.png"
+                style="width: 100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/chromeExtension.png"
+                style="width: 100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="images/calculator.png"
+                style="width: 100%"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -469,6 +626,38 @@
       </div>
     </footer>
     <!-- Footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".slider").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        arrows: true,
+        fade: true,
+        asNavFor: ".slider-small",
+        prevArrow: $(".prev"),
+        nextArrow: $(".next"),
+      });
+      $(".slider-small").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        variableWidth: true,
+        // width: "80%",
+        asNavFor: ".slider",
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true,
+        prevArrow: $("#smallPrev"),
+        nextArrow: $("#smallNext"),
+      });
+    </script>
 
     <script src="index.js"></script>
   </body>
