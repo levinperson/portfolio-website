@@ -24,6 +24,14 @@ html {
   background-size: cover;
 }
 
+@supports (-webkit-touch-callout: inherit) {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url("/images/IMG-08832.JPG");
